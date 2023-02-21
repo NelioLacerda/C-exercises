@@ -1,0 +1,26 @@
+EX001:
+
+Create a program that giving the type, time and distance, outputs the price in EUR (or USD) to pay.
+
+-Specifications:
+  There is two types(1, 2).
+ 
+Type 1:
+  0,10 cents per minute
+  0,80 cents per kilometer(0,62 miles)
+  1 EUR/USD as rate base
+  2,5 EUR/USD as min rate
+  
+Type 2:
+  o,50 cents per minute
+  1,20 EUR/USD kilometer(0,62 miles)
+  1,50 EUR/USD as rate base
+  3,5 EUR/USD as min rate
+  
+Price is the sum of distance, time and the rate base, if this is less than the min rate, the price will be the min rate. 
+
+
+*input goes in minutes and kilometers
+*output goes in EUR/USD
+  
+  
