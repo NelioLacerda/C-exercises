@@ -5,9 +5,7 @@
 class PriceSystem{
 private:
     int carType;
-    double price;
-    double distance;
-    double time;
+    double price, distance, time;
 
     //constants
     const int baseRate1 = 1;
@@ -24,7 +22,7 @@ public:
     PriceSystem(int carType, double time, double distance);
     ~PriceSystem();
 
-    void calcPrice();   
+    void calcPrice();  
 
 };
 
